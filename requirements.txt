@@ -1,0 +1,8 @@
+faster-whisper==1.2.0
+pyannote.audio==3.3.2
+python-dotenv==1.1.1
+soundfile==0.13.1
+numpy==2.3.2
+pytest==8.4.1
+black==25.1.0
+ruff==0.12.11
