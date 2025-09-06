@@ -11,6 +11,11 @@ env/
 venv/
 ENV/
 
+# Models
+.models/
+models/
+checkpoints/
+
 # Distribution / packaging
 .Python
 build/
