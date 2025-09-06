@@ -1,8 +1,22 @@
+﻿# Speech + diarization
 faster-whisper==1.2.0
 pyannote.audio==3.3.2
+
+# Utility
 python-dotenv==1.1.1
 soundfile==0.13.1
-numpy==2.3.2
-pytest==8.4.1
-black==25.1.0
-ruff==0.12.11
+tqdm
+more-itertools
+tiktoken
+
+# Math stack (version guards for Py3.10)
+numpy<2.3; python_version < "3.11"
+numpy; python_version >= "3.11"
+numba==0.60.0; python_version < "3.11"
+numba; python_version >= "3.11"
+
+# Torch (reuse your system install via --system-site-packages)
+torch
+
+# Triton only for Linux x86_64 (skip on Windows)
+triton>=2.0.0,<3; platform_machine == "x86_64" and (sys_platform == "linux" or sys_platform == "linux2")

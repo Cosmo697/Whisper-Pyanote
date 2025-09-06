@@ -92,3 +92,6 @@ $RECYCLE.BIN/
 *.swo
 *.tmp
 *.DS_Store
+.env
+.env.*
+!.env.example
