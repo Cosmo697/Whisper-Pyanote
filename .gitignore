@@ -1,7 +1,89 @@
-.venv/
-.models/
+# ------------------------------
+# Python
+# ------------------------------
 __pycache__/
-.env
-*.pyc
-out/
-.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs & databases
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage_html_report/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# MyPy / Type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# ------------------------------
+# Windows / IDEs
+# ------------------------------
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.code-workspace
+
+# Windows crap
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
